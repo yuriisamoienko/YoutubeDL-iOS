@@ -121,6 +121,15 @@ open class Downloader: NSObject {
         return task
     }
     
+    open func data(request: URLRequest, kind: Kind) -> URLSessionDataTask {
+        removeItem(at: kind.url)
+
+        let task = session.dataTask(with: request)
+        task.taskDescription = kind.rawValue
+        task.priority = URLSessionTask.highPriority
+        return task
+    }
+    
     func tryMerge() {
         let t0 = ProcessInfo.processInfo.systemUptime
         
