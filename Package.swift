@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "YoutubeDL-iOS",
+    platforms: [
+            .iOS(.v11),         //.v8 - .v13
+    ],
     products: [
         .library(
             name: "YoutubeDL",
