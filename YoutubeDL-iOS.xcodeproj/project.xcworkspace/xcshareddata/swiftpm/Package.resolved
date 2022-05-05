@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "ffmpeg-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yuriisamoienko/FFmpeg-iOS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d69fb2d25e94b5fe27bc7db7493fd2c7778eaea0"
+      }
+    },
+    {
+      "identity" : "python-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yuriisamoienko/Python-iOS.git",
+      "state" : {
+        "branch" : "kivy-ios",
+        "revision" : "1fa595f162b6df0dd729304ac284de8cc31b84f5"
+      }
+    },
+    {
+      "identity" : "pythonkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pvieito/PythonKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "81f621d094a7c8923207efe5178f50dba1b56c39"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "6b2aa2748a7881eebb9f84fb10c01293e15b52ca",
+        "version" : "0.5.0"
+      }
+    }
+  ],
+  "version" : 2
+}
