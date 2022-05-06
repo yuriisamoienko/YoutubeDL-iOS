@@ -1,0 +1,4 @@
+
+github "https://github.com/yuriisamoienko/FFmpeg-iOS.git" "main"
+github "https://github.com/yuriisamoienko/PythonKit.git" "master"
+github "https://github.com/yuriisamoienko/Python-iOS.git" "kivy-ios"
