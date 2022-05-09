@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		"youtubedl-ios::YoutubeDL-iOSPackageTests::ProductTarget" /* YoutubeDL-iOSPackageTests */ = {
+		"youtubedl-ios-library::YoutubeDL-iOSPackageTests::ProductTarget" /* YoutubeDL-iOSPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_31 /* Build configuration list for PBXAggregateTarget "YoutubeDL-iOSPackageTests" */;
+			buildConfigurationList = OBJ_40 /* Build configuration list for PBXAggregateTarget "YoutubeDL-iOSPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_34 /* PBXTargetDependency */,
+				OBJ_43 /* PBXTargetDependency */,
 			);
 			name = "YoutubeDL-iOSPackageTests";
 			productName = "YoutubeDL-iOSPackageTests";
@@ -21,137 +21,142 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		5AC3E3BE2824415A007FA4F9 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3E3BA2824415A007FA4F9 /* Downloader.swift */; };
-		5AC3E3BF2824415A007FA4F9 /* Transcoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3E3BB2824415A007FA4F9 /* Transcoder.swift */; };
-		5AC3E3C02824415A007FA4F9 /* YoutubeDL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3E3BC2824415A007FA4F9 /* YoutubeDL.swift */; };
-		5AC3E3C12824415A007FA4F9 /* HTTPRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3E3BD2824415A007FA4F9 /* HTTPRange.swift */; };
-		5AC3E3C9282441D6007FA4F9 /* FFmpeg-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 5AC3E3C8282441D6007FA4F9 /* FFmpeg-iOS */; };
-		5AC3E3CC28244267007FA4F9 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5AC3E3CB28244267007FA4F9 /* PythonKit */; };
-		5AC3E3CF2824429D007FA4F9 /* Python-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 5AC3E3CE2824429D007FA4F9 /* Python-iOS */; };
-		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_42 /* YoutubeDL_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "youtubedl-ios::YoutubeDL-iOS::Product" /* YoutubeDL_iOS.framework */; };
+		5A85129F282935D300F6B18A /* FFmpeg-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 5A85129E282935D300F6B18A /* FFmpeg-iOS */; };
+		5A8512A2282935E400F6B18A /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5A8512A1282935E400F6B18A /* PythonKit */; };
+		5A8512A52829360400F6B18A /* Python-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 5A8512A42829360400F6B18A /* Python-iOS */; };
+		OBJ_28 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Downloader.swift */; };
+		OBJ_29 /* HTTPRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* HTTPRange.swift */; };
+		OBJ_30 /* Transcoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Transcoder.swift */; };
+		OBJ_31 /* YoutubeDL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* YoutubeDL.swift */; };
+		OBJ_38 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_49 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* XCTestManifests.swift */; };
+		OBJ_50 /* YoutubeDLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* YoutubeDLTests.swift */; };
+		OBJ_52 /* YoutubeDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "youtubedl-ios-library::YoutubeDL::Product" /* YoutubeDL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5AC3E3B628244126007FA4F9 /* PBXContainerItemProxy */ = {
+		5A85129B282935AD00F6B18A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = "youtubedl-ios::YoutubeDL-iOS";
-			remoteInfo = "YoutubeDL-iOS";
+			remoteGlobalIDString = "youtubedl-ios-library::YoutubeDL";
+			remoteInfo = YoutubeDL;
 		};
-		5AC3E3B72824412A007FA4F9 /* PBXContainerItemProxy */ = {
+		5A85129C282935AD00F6B18A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = "youtubedl-ios::YoutubeDL-iOSTests";
-			remoteInfo = "YoutubeDL-iOSTests";
+			remoteGlobalIDString = "youtubedl-ios-library::YoutubeDLTests";
+			remoteInfo = YoutubeDLTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5AC3E3BA2824415A007FA4F9 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
-		5AC3E3BB2824415A007FA4F9 /* Transcoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transcoder.swift; sourceTree = "<group>"; };
-		5AC3E3BC2824415A007FA4F9 /* YoutubeDL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeDL.swift; sourceTree = "<group>"; };
-		5AC3E3BD2824415A007FA4F9 /* HTTPRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRange.swift; sourceTree = "<group>"; };
-		5AC3E3C328244165007FA4F9 /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
-		5AC3E3C528244165007FA4F9 /* YoutubeDLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeDLTests.swift; sourceTree = "<group>"; };
-		5AC3E3C628244165007FA4F9 /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		5AC3E3DA282549C3007FA4F9 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		OBJ_16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_10 /* HTTPRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRange.swift; sourceTree = "<group>"; };
+		OBJ_11 /* Transcoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transcoder.swift; sourceTree = "<group>"; };
+		OBJ_12 /* YoutubeDL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeDL.swift; sourceTree = "<group>"; };
+		OBJ_15 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_16 /* YoutubeDLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeDLTests.swift; sourceTree = "<group>"; };
+		OBJ_20 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_21 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		OBJ_22 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		"youtubedl-ios::YoutubeDL-iOS::Product" /* YoutubeDL_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YoutubeDL_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"youtubedl-ios::YoutubeDL-iOSTests::Product" /* YoutubeDL-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = "YoutubeDL-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_9 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		"youtubedl-ios-library::YoutubeDL::Product" /* YoutubeDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YoutubeDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"youtubedl-ios-library::YoutubeDLTests::Product" /* YoutubeDLTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = YoutubeDLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_23 /* Frameworks */ = {
+		OBJ_32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				5AC3E3C9282441D6007FA4F9 /* FFmpeg-iOS in Frameworks */,
-				5AC3E3CF2824429D007FA4F9 /* Python-iOS in Frameworks */,
-				5AC3E3CC28244267007FA4F9 /* PythonKit in Frameworks */,
+				5A85129F282935D300F6B18A /* FFmpeg-iOS in Frameworks */,
+				5A8512A52829360400F6B18A /* Python-iOS in Frameworks */,
+				5A8512A2282935E400F6B18A /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_41 /* Frameworks */ = {
+		OBJ_51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_42 /* YoutubeDL_iOS.framework in Frameworks */,
+				OBJ_52 /* YoutubeDL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5AC3E3B82824415A007FA4F9 /* Sources */ = {
+		OBJ_13 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5AC3E3B92824415A007FA4F9 /* YoutubeDL */,
+				OBJ_14 /* YoutubeDLTests */,
 			);
-			path = Sources;
-			sourceTree = "<group>";
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
 		};
-		5AC3E3B92824415A007FA4F9 /* YoutubeDL */ = {
+		OBJ_14 /* YoutubeDLTests */ = {
 			isa = PBXGroup;
 			children = (
-				5AC3E3BA2824415A007FA4F9 /* Downloader.swift */,
-				5AC3E3BB2824415A007FA4F9 /* Transcoder.swift */,
-				5AC3E3BC2824415A007FA4F9 /* YoutubeDL.swift */,
-				5AC3E3BD2824415A007FA4F9 /* HTTPRange.swift */,
+				OBJ_15 /* XCTestManifests.swift */,
+				OBJ_16 /* YoutubeDLTests.swift */,
 			);
-			path = YoutubeDL;
-			sourceTree = "<group>";
+			name = YoutubeDLTests;
+			path = Tests/YoutubeDLTests;
+			sourceTree = SOURCE_ROOT;
 		};
-		5AC3E3C228244165007FA4F9 /* Tests */ = {
+		OBJ_17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AC3E3C328244165007FA4F9 /* LinuxMain.swift */,
-				5AC3E3C428244165007FA4F9 /* YoutubeDLTests */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		5AC3E3C428244165007FA4F9 /* YoutubeDLTests */ = {
-			isa = PBXGroup;
-			children = (
-				5AC3E3C528244165007FA4F9 /* YoutubeDLTests.swift */,
-				5AC3E3C628244165007FA4F9 /* XCTestManifests.swift */,
-			);
-			path = YoutubeDLTests;
-			sourceTree = "<group>";
-		};
-		OBJ_13 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				"youtubedl-ios::YoutubeDL-iOS::Product" /* YoutubeDL_iOS.framework */,
-				"youtubedl-ios::YoutubeDL-iOSTests::Product" /* YoutubeDL-iOSTests.xctest */,
+				"youtubedl-ios-library::YoutubeDL::Product" /* YoutubeDL.framework */,
+				"youtubedl-ios-library::YoutubeDLTests::Product" /* YoutubeDLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				5AC3E3DA282549C3007FA4F9 /* Cartfile */,
 				OBJ_6 /* Package.swift */,
-				5AC3E3C228244165007FA4F9 /* Tests */,
-				5AC3E3B82824415A007FA4F9 /* Sources */,
-				OBJ_13 /* Products */,
-				OBJ_16 /* README.md */,
+				OBJ_7 /* Sources */,
+				OBJ_13 /* Tests */,
+				OBJ_17 /* Products */,
+				OBJ_20 /* LICENSE */,
+				OBJ_21 /* Cartfile */,
+				OBJ_22 /* README.md */,
 			);
+			name = "";
 			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* YoutubeDL */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* YoutubeDL */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Downloader.swift */,
+				OBJ_10 /* HTTPRange.swift */,
+				OBJ_11 /* Transcoder.swift */,
+				OBJ_12 /* YoutubeDL.swift */,
+			);
+			name = YoutubeDL;
+			path = Sources/YoutubeDL;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		"youtubedl-ios::SwiftPMPackageDescription" /* YoutubeDL-iOSPackageDescription */ = {
+		"youtubedl-ios-library::SwiftPMPackageDescription" /* YoutubeDL-iOSPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "YoutubeDL-iOSPackageDescription" */;
+			buildConfigurationList = OBJ_34 /* Build configuration list for PBXNativeTarget "YoutubeDL-iOSPackageDescription" */;
 			buildPhases = (
-				OBJ_28 /* Sources */,
+				OBJ_37 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -161,42 +166,42 @@
 			productName = "YoutubeDL-iOSPackageDescription";
 			productType = "com.apple.product-type.framework";
 		};
-		"youtubedl-ios::YoutubeDL-iOS" /* YoutubeDL-iOS */ = {
+		"youtubedl-ios-library::YoutubeDL" /* YoutubeDL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "YoutubeDL-iOS" */;
+			buildConfigurationList = OBJ_24 /* Build configuration list for PBXNativeTarget "YoutubeDL" */;
 			buildPhases = (
-				OBJ_21 /* Sources */,
-				OBJ_23 /* Frameworks */,
+				OBJ_27 /* Sources */,
+				OBJ_32 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "YoutubeDL-iOS";
+			name = YoutubeDL;
 			packageProductDependencies = (
-				5AC3E3C8282441D6007FA4F9 /* FFmpeg-iOS */,
-				5AC3E3CB28244267007FA4F9 /* PythonKit */,
-				5AC3E3CE2824429D007FA4F9 /* Python-iOS */,
+				5A85129E282935D300F6B18A /* FFmpeg-iOS */,
+				5A8512A1282935E400F6B18A /* PythonKit */,
+				5A8512A42829360400F6B18A /* Python-iOS */,
 			);
-			productName = YoutubeDL_iOS;
-			productReference = "youtubedl-ios::YoutubeDL-iOS::Product" /* YoutubeDL_iOS.framework */;
+			productName = YoutubeDL;
+			productReference = "youtubedl-ios-library::YoutubeDL::Product" /* YoutubeDL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"youtubedl-ios::YoutubeDL-iOSTests" /* YoutubeDL-iOSTests */ = {
+		"youtubedl-ios-library::YoutubeDLTests" /* YoutubeDLTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_36 /* Build configuration list for PBXNativeTarget "YoutubeDL-iOSTests" */;
+			buildConfigurationList = OBJ_45 /* Build configuration list for PBXNativeTarget "YoutubeDLTests" */;
 			buildPhases = (
-				OBJ_39 /* Sources */,
-				OBJ_41 /* Frameworks */,
+				OBJ_48 /* Sources */,
+				OBJ_51 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_43 /* PBXTargetDependency */,
+				OBJ_53 /* PBXTargetDependency */,
 			);
-			name = "YoutubeDL-iOSTests";
-			productName = YoutubeDL_iOSTests;
-			productReference = "youtubedl-ios::YoutubeDL-iOSTests::Product" /* YoutubeDL-iOSTests.xctest */;
+			name = YoutubeDLTests;
+			productName = YoutubeDLTests;
+			productReference = "youtubedl-ios-library::YoutubeDLTests::Product" /* YoutubeDLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,68 +220,70 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
+			mainGroup = OBJ_5 /*  */;
 			packageReferences = (
-				5AC3E3C7282441D6007FA4F9 /* XCRemoteSwiftPackageReference "FFmpeg-iOS" */,
-				5AC3E3CA28244267007FA4F9 /* XCRemoteSwiftPackageReference "PythonKit" */,
-				5AC3E3CD2824429D007FA4F9 /* XCRemoteSwiftPackageReference "Python-iOS" */,
+				5A85129D282935D300F6B18A /* XCRemoteSwiftPackageReference "FFmpeg-iOS" */,
+				5A8512A0282935E400F6B18A /* XCRemoteSwiftPackageReference "PythonKit" */,
+				5A8512A32829360400F6B18A /* XCRemoteSwiftPackageReference "Python-iOS" */,
 			);
-			productRefGroup = OBJ_13 /* Products */;
+			productRefGroup = OBJ_17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"youtubedl-ios::YoutubeDL-iOS" /* YoutubeDL-iOS */,
-				"youtubedl-ios::SwiftPMPackageDescription" /* YoutubeDL-iOSPackageDescription */,
-				"youtubedl-ios::YoutubeDL-iOSPackageTests::ProductTarget" /* YoutubeDL-iOSPackageTests */,
-				"youtubedl-ios::YoutubeDL-iOSTests" /* YoutubeDL-iOSTests */,
+				"youtubedl-ios-library::YoutubeDL" /* YoutubeDL */,
+				"youtubedl-ios-library::SwiftPMPackageDescription" /* YoutubeDL-iOSPackageDescription */,
+				"youtubedl-ios-library::YoutubeDL-iOSPackageTests::ProductTarget" /* YoutubeDL-iOSPackageTests */,
+				"youtubedl-ios-library::YoutubeDLTests" /* YoutubeDLTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_21 /* Sources */ = {
+		OBJ_27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				5AC3E3C02824415A007FA4F9 /* YoutubeDL.swift in Sources */,
-				5AC3E3BF2824415A007FA4F9 /* Transcoder.swift in Sources */,
-				5AC3E3BE2824415A007FA4F9 /* Downloader.swift in Sources */,
-				5AC3E3C12824415A007FA4F9 /* HTTPRange.swift in Sources */,
+				OBJ_28 /* Downloader.swift in Sources */,
+				OBJ_29 /* HTTPRange.swift in Sources */,
+				OBJ_30 /* Transcoder.swift in Sources */,
+				OBJ_31 /* YoutubeDL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_28 /* Sources */ = {
+		OBJ_37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_29 /* Package.swift in Sources */,
+				OBJ_38 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_39 /* Sources */ = {
+		OBJ_48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				OBJ_49 /* XCTestManifests.swift in Sources */,
+				OBJ_50 /* YoutubeDLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "youtubedl-ios::YoutubeDL-iOSTests" /* YoutubeDL-iOSTests */;
-			targetProxy = 5AC3E3B72824412A007FA4F9 /* PBXContainerItemProxy */;
-		};
 		OBJ_43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "youtubedl-ios::YoutubeDL-iOS" /* YoutubeDL-iOS */;
-			targetProxy = 5AC3E3B628244126007FA4F9 /* PBXContainerItemProxy */;
+			target = "youtubedl-ios-library::YoutubeDLTests" /* YoutubeDLTests */;
+			targetProxy = 5A85129C282935AD00F6B18A /* PBXContainerItemProxy */;
+		};
+		OBJ_53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "youtubedl-ios-library::YoutubeDL" /* YoutubeDL */;
+			targetProxy = 5A85129B282935AD00F6B18A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_19 /* Debug */ = {
+		OBJ_25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
@@ -287,7 +294,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "YoutubeDL-iOS.xcodeproj/YoutubeDL_iOS_Info.plist";
+				INFOPLIST_FILE = "YoutubeDL-iOS.xcodeproj/YoutubeDL_Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,19 +304,19 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "YoutubeDL-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = YoutubeDL;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGET_NAME = "YoutubeDL-iOS";
+				TARGET_NAME = YoutubeDL;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		OBJ_20 /* Release */ = {
+		OBJ_26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
@@ -320,7 +327,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "YoutubeDL-iOS.xcodeproj/YoutubeDL_iOS_Info.plist";
+				INFOPLIST_FILE = "YoutubeDL-iOS.xcodeproj/YoutubeDL_Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -330,51 +337,27 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "YoutubeDL-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = YoutubeDL;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGET_NAME = "YoutubeDL-iOS";
+				TARGET_NAME = YoutubeDL;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		OBJ_26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -package-description-version 5.6.0";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		OBJ_27 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -package-description-version 5.6.0";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					x86_64,
-				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = YES;
-				EXCLUDED_ARCHS = "armv7 i386";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -395,96 +378,32 @@
 			};
 			name = Debug;
 		};
-		OBJ_32 /* Debug */ = {
+		OBJ_35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -package-description-version 5.6.0";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		OBJ_33 /* Release */ = {
+		OBJ_36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "YoutubeDL-iOS.xcodeproj/YoutubeDL_iOSTests_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -package-description-version 5.6.0";
 				SWIFT_VERSION = 5.0;
-				TARGET_NAME = "YoutubeDL-iOSTests";
-				TVOS_DEPLOYMENT_TARGET = 14.0;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
-			};
-			name = Debug;
-		};
-		OBJ_38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "YoutubeDL-iOS.xcodeproj/YoutubeDL_iOSTests_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = "YoutubeDL-iOSTests";
-				TVOS_DEPLOYMENT_TARGET = 14.0;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					x86_64,
-				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = "armv7 i386";
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -504,18 +423,83 @@
 			};
 			name = Release;
 		};
+		OBJ_41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "YoutubeDL-iOS.xcodeproj/YoutubeDLTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = YoutubeDLTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "YoutubeDL-iOS.xcodeproj/YoutubeDLTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = YoutubeDLTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_18 /* Build configuration list for PBXNativeTarget "YoutubeDL-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_19 /* Debug */,
-				OBJ_20 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		OBJ_2 /* Build configuration list for PBXProject "YoutubeDL-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -525,29 +509,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_25 /* Build configuration list for PBXNativeTarget "YoutubeDL-iOSPackageDescription" */ = {
+		OBJ_24 /* Build configuration list for PBXNativeTarget "YoutubeDL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_26 /* Debug */,
-				OBJ_27 /* Release */,
+				OBJ_25 /* Debug */,
+				OBJ_26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_31 /* Build configuration list for PBXAggregateTarget "YoutubeDL-iOSPackageTests" */ = {
+		OBJ_34 /* Build configuration list for PBXNativeTarget "YoutubeDL-iOSPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_32 /* Debug */,
-				OBJ_33 /* Release */,
+				OBJ_35 /* Debug */,
+				OBJ_36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_36 /* Build configuration list for PBXNativeTarget "YoutubeDL-iOSTests" */ = {
+		OBJ_40 /* Build configuration list for PBXAggregateTarget "YoutubeDL-iOSPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_37 /* Debug */,
-				OBJ_38 /* Release */,
+				OBJ_41 /* Debug */,
+				OBJ_42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_45 /* Build configuration list for PBXNativeTarget "YoutubeDLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_46 /* Debug */,
+				OBJ_47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -555,7 +548,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5AC3E3C7282441D6007FA4F9 /* XCRemoteSwiftPackageReference "FFmpeg-iOS" */ = {
+		5A85129D282935D300F6B18A /* XCRemoteSwiftPackageReference "FFmpeg-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/yuriisamoienko/FFmpeg-iOS.git";
 			requirement = {
@@ -563,7 +556,7 @@
 				kind = branch;
 			};
 		};
-		5AC3E3CA28244267007FA4F9 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+		5A8512A0282935E400F6B18A /* XCRemoteSwiftPackageReference "PythonKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pvieito/PythonKit.git";
 			requirement = {
@@ -571,7 +564,7 @@
 				kind = branch;
 			};
 		};
-		5AC3E3CD2824429D007FA4F9 /* XCRemoteSwiftPackageReference "Python-iOS" */ = {
+		5A8512A32829360400F6B18A /* XCRemoteSwiftPackageReference "Python-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/yuriisamoienko/Python-iOS.git";
 			requirement = {
@@ -582,19 +575,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5AC3E3C8282441D6007FA4F9 /* FFmpeg-iOS */ = {
+		5A85129E282935D300F6B18A /* FFmpeg-iOS */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5AC3E3C7282441D6007FA4F9 /* XCRemoteSwiftPackageReference "FFmpeg-iOS" */;
+			package = 5A85129D282935D300F6B18A /* XCRemoteSwiftPackageReference "FFmpeg-iOS" */;
 			productName = "FFmpeg-iOS";
 		};
-		5AC3E3CB28244267007FA4F9 /* PythonKit */ = {
+		5A8512A1282935E400F6B18A /* PythonKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5AC3E3CA28244267007FA4F9 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			package = 5A8512A0282935E400F6B18A /* XCRemoteSwiftPackageReference "PythonKit" */;
 			productName = PythonKit;
 		};
-		5AC3E3CE2824429D007FA4F9 /* Python-iOS */ = {
+		5A8512A42829360400F6B18A /* Python-iOS */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5AC3E3CD2824429D007FA4F9 /* XCRemoteSwiftPackageReference "Python-iOS" */;
+			package = 5A8512A32829360400F6B18A /* XCRemoteSwiftPackageReference "Python-iOS" */;
 			productName = "Python-iOS";
 		};
 /* End XCSwiftPackageProductDependency section */

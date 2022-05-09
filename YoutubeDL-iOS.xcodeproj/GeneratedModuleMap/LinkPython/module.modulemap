@@ -1,0 +1,4 @@
+module LinkPython {
+    umbrella "/Users/yurii/Development/YoutubeDL-iOS-Library/.build/checkouts/Python-iOS/Sources/LinkPython/include"
+    export *
+}

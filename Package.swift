@@ -20,7 +20,9 @@ let package = Package(
     targets: [
         .target(
             name: "YoutubeDL",
-            dependencies: ["Python-iOS", "PythonKit", "FFmpeg-iOS"]),
+            dependencies: [
+                "Python-iOS", "PythonKit", "FFmpeg-iOS"
+            ]),
         .testTarget(
             name: "YoutubeDLTests",
             dependencies: ["YoutubeDL"]),
