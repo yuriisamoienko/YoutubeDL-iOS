@@ -6,7 +6,7 @@
       "location" : "https://github.com/yuriisamoienko/FFmpeg-iOS.git",
       "state" : {
         "branch" : "main",
-        "revision" : "4a1899e07d74e90991b83993b6d1eea94fcc5d66"
+        "revision" : "37b5e8e82813bf1a7ced9effe30007f743dc8b74"
       }
     },
     {
@@ -15,7 +15,7 @@
       "location" : "https://github.com/yuriisamoienko/Python-iOS.git",
       "state" : {
         "branch" : "kivy-ios",
-        "revision" : "cfb37de6ee534d1217c751b94fe828c396ff2e80"
+        "revision" : "24bdb9ac7d862ad363f30b0d4e6e4d2b7ee6debe"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser",
       "state" : {
-        "revision" : "6b2aa2748a7881eebb9f84fb10c01293e15b52ca",
-        "version" : "0.5.0"
+        "revision" : "15351c1cd009eba0b6e438bfef55ea9847a8dc4a",
+        "version" : "0.3.0"
       }
     }
   ],
