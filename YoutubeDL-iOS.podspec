@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.source_files = 'Sources/*'
   spec.framework    = 'YoutubeDL-iOS'
 
-  spec.ios.deployment_target = '13.0'
+  pec.ios.deployment_target = '13.0'
   spec.swift_version = '5.6'
 end
